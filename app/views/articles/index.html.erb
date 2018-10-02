@@ -25,6 +25,15 @@
 </table>
 
 <br>
-<%= will_paginate @articles %>
+
+<div class="navin_pagination">
+    <div class="page_info">
+      <%= page_entries_info @articles %>
+    </div>
+    <%= will_paginate @articles, :container => false %>
+  </div>
+  
+  
+<br>
 
 <%= link_to 'New Article', new_article_path %>
