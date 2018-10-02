@@ -22,6 +22,20 @@ articles=[
 		   ["title14","content14"],
 		   ["title15","content15"],
 		   ["title16","content16"],
+		   ["title17","content17"],
+		   ["title18","content18"],
+		   ["title19","content19"],
+		   ["title20","content20"],
+		   ["title21","content21"],
+		   ["title22","content22"],
+		   ["title23","content23"],
+		   ["title24","content24"],
+		   ["title25","content25"],
+		   ["title26","content26"],
+		   ["title27","content27"],
+		   ["title28","content28"],
+		   ["title29","content29"],
+		   ["title30","content30"],
 		 ]
 		 
 articles.each do |title,content|
